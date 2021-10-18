@@ -1,0 +1,25 @@
+.footer{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    height : 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    bottom : 0 ;
+    top : 100%;
+    backdrop-filter: blur(5px);
+ 
+}
+.link{
+    text-decoration: none;
+    color : black;
+    font-size: 1.5rem;
+}
+.name{
+    font-size: 2rem;
+}
+.link:focus{
+    transform : scale(1.1)
+}

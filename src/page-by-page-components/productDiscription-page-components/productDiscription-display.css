@@ -1,0 +1,82 @@
+.product-discription {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+  
+    width: 65%;
+    height: 60%;
+    border-radius: 1rem;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5);
+  
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .product-discription > .description {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .product-discription > .description > .heading {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  .product-discription > .description > .content {
+    width: 80%;
+    margin-bottom: 1.5rem;
+  }
+  .product-discription > .description > .image-array {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+  .image-array > .choice {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 8px;
+    background-color: transparent;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .product-discription > .main-image > .center-image {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5);
+  }
+  .product-discription > .rattings {
+    width: 30%;
+    height: 15rem;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .product-discription > .rattings > .rating {
+    font-size: 1.5rem;
+  
+    padding-left: none;
+  }
+  .product-discription > .rattings > .user-exp {
+    padding-left: 1rem;
+  }
+  .product-discription > .rattings > .add-to-cart {
+    width: 10rem;
+    
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: transparent;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 5px;
+  }

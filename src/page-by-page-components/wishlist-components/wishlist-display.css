@@ -1,0 +1,90 @@
+.wishlist-display {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: transparent;
+  width: 70%;
+  height: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  justify-content: space-between;
+  top: 30%;
+  left: 13.6%;
+}
+.wishlist-display > .product-card {
+  padding: 10px;
+  height: 48%;
+  width: 28%;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  margin-bottom: 1rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.wishlist-display > .product-card > .open-product {
+  position: absolute;
+  height: 1.7rem;
+  width: 1.7rem;
+  top: 2%;
+  left: 2%;
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+.wishlist-display > .product-card > .add-to-wishlist {
+  height: 1.7rem;
+  width: 1.7rem;
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+.wishlist-display > .product-card > .shoe-image {
+  margin-top: 1rem;
+  width: 70%;
+  height: 60%;
+  background-color: transparent;
+}
+.wishlist-display > .product-card > .info {
+  margin-bottom: 1rem;
+}
+.wishlist-display > .product-card > .add-to-cart {
+  border-radius: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 1rem;
+  border: none;
+  background-color: transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+.loader {
+  display: block;
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+ 
+   margin: 5rem auto;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

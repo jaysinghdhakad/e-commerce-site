@@ -1,0 +1,53 @@
+.top-navigation {
+  margin: 0 auto;
+  background-color: transparent;
+  height: 10%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
+.top-navigation > .logo {
+  width: 27%;
+  text-align: left;
+}
+.top-navigation > .center-menu {
+  width: 37%;
+  text-align: center;
+}
+.top-navigation > .cart {
+  width: 27%;
+  text-align: right;
+
+  border-radius: 30px;
+}
+.active{
+  color: black;
+  text-decoration: none;
+  margin-left: 0.5rem;
+}
+.inactive{
+  color : black;
+  text-decoration: none;
+  margin-left: 0.5rem;
+}
+.logout{
+  font-weight: bold;
+  background-color: transparent;
+  border:none;
+}
+.heart {
+  height: 0.7rem;
+  width : 0.7rem ;
+  border : 1px solid black;
+  border-radius: 50% 50% 50% 0;
+  transform : rotate(-45deg);
+  background-color : black;
+}
+.notification{
+ position: relative;
+ top: -15px;
+ right : 5px;
+}
