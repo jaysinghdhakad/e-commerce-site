@@ -31,11 +31,11 @@ function App() {
         <Route path="/products/:id" element={<ProductDescriptionPage />} />
         <ToggleRoute path="/log-in" element={<AuthenticationPage />} />
         <ToggleRoute path="/sign-up" element={<SignupPage />} />
-        <PrivateRoute path="/wish-list" element={<WishListPage />} />
-        <PrivateRoute path="/cart" element={<CartPage />} />
+        <Route path="/wish-list" element={<WishListPage />} />
+        <Route path="/cart" element={<CartPage />} />
       </Routes>
 
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }
